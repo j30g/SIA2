@@ -1,0 +1,203 @@
+*{
+
+		padding: 0;
+		margin: 0;
+	}
+
+	h2{
+		pointer-events: none;
+		margin-top: 35px;
+		letter-spacing: -3px;
+		font-size: 2rem;
+		text-indent: ;
+		font-family:sans-serif;
+	}
+
+	img{
+		user-select: none;
+		pointer-events: none;
+	}
+
+	.container{
+		padding-bottom: 200px;
+		position: fi;
+		width: 30%;
+		margin-top: 40px;
+	}
+
+	.fb{
+		box-sizing: border-box;
+		position: relative;
+		border-radius: 50px;
+		background-color:#4a6ea0 ;
+		font-size: 16px;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	padding: 10px 85px;
+    	font-weight: bolder;
+    	color: white;
+    	border: none;
+    	cursor: pointer;
+	}
+	.fb:hover{
+		
+		font-size: 17px;
+		margin-top: -2px;
+		padding: 12px 88px;
+		background-color: #3a567c;
+	}
+
+	.google{
+		box-sizing: border-box;
+		position: relative;
+		border-radius: 50px;
+		background-color:white ;
+		font-size: 16px;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	padding: 8px 95px;
+    	font-weight: bolder;
+    	color: dimgrey;
+    	border: solid 2px;
+    	cursor: pointer;
+	}
+	.google:hover{
+		
+		font-size: 17px;
+		margin-top: -1px;
+		padding: 10px 98px;
+		background-color: ;
+	}
+
+	#or{
+		color: grey;
+		font-size: 15px;
+		letter-spacing: 2px;
+		font-family: sans-serif;
+		display: flex;
+    	justify-content: center;
+	}
+
+	.line{
+		margin-top: 10px;
+		width: 150px;
+		height: 1px;
+		background-color: grey;
+		opacity: 50%;
+	}
+	.form-control{
+		margin-left: 10%;
+		position: relative;
+		text-align: left;
+		font-size: 14px;
+		font-weight: bold;
+		font-family: sans-serif;
+		margin-top: 20px;
+	}
+	
+	input{
+		padding-left: 10px;
+		font-size: 15px;
+		height: 40px;
+		width: 85%;
+		border-radius: 5px;
+		border: 1px solid grey;
+	}
+
+	input:focus{
+		outline: none;
+		transition: .1s;
+		border: 3px solid black;
+	}
+	
+
+	select{
+		border: 1px solid grey;
+		border-radius: 5px;
+		font-size: 15px;
+		padding: 10px;
+	}
+
+	select:focus{
+		transition: .1s;
+		outline: none;
+		border: 3px solid black;
+	}
+
+	option{
+		color: dimgrey;
+		text-align: left;
+		font-size: 15px;
+	}
+
+	optgroup{
+		font-weight: normal;
+		font-size: 15px;
+		color: grey;
+	}
+	
+
+	th{
+		padding-right: 25px;
+	}
+
+	{
+
+		font-weight: normal;
+	}
+
+	#gender tr th{
+		padding-right: 45px;
+		display: inline-flex;
+    	align-items: center;
+    	font-weight: normal;
+	}
+	.checkbox{
+		margin-top: 20px;
+	}
+	.checkbox tr th{
+		font-weight: normal;
+		margin-top: px;
+		padding-bottom: 20px;
+		display: inline-flex;
+		align-items: center;
+	}
+
+	.signup{
+		margin-top: 10px;
+		width:158px; 
+		height:56px; 
+		border-radius:500px; 
+		font-size:inherit; 
+		font-weight: bold; 
+		background-color: limegreen; 
+		border-style: none;
+	}
+	.signup:hover{
+		cursor: pointer;
+		font-size: 17px;
+		width: 161px;
+		height: 59px;
+		background-color: #39e039;
+	}
+	.checkbox:hover input ~  .checkmark {
+		border: 1px solid limegreen;
+		background-color: green;
+	}
+	.errors{
+		font-weight: normal;
+		display: flex;
+    	align-items: center;
+    	margin-top: 10px;
+		color: red;
+	}
+	.material-symbols-outlined{
+		font-size: 20px;
+		user-select: none;
+		pointer-events: none;
+	}
+
+	
+	
